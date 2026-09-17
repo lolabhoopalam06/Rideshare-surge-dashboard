@@ -205,8 +205,8 @@ with tab1:
     st.plotly_chart(fig_opt, use_container_width=True)
 
     st.info(
-        f"**Interpretation:** At **m* = {m_star:.2f}**, passenger cancellation rates and driver entry rates reach dynamic equilibrium[cite: 2]. "
-        f"Pricing below {m_star:.2f} creates a **supply deficit**, while pricing above creates **passenger churn**[cite: 2]."
+        f"**Interpretation:** At **m* = {m_star:.2f}**, passenger cancellation rates and driver entry rates reach dynamic equilibrium. "
+        f"Pricing below {m_star:.2f} creates a **supply deficit**, while pricing above creates **passenger churn**."
     )
 
 with tab2:
@@ -285,7 +285,7 @@ with tab2:
 with tab3:
     st.subheader("Data Sweep Export")
     st.markdown(
-        "Download simulated dynamic sweep data for inclusion in project reports or appendices[cite: 1, 2]."
+        "Download simulated dynamic sweep data for inclusion in project reports or appendices."
     )
 
     export_df = pd.DataFrame(
